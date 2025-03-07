@@ -1,0 +1,43 @@
+---
+description: Here is the list of addresses on Sui Mainnet
+---
+
+# Deployments
+
+### Contract Addresses
+
+| Role          | ObjectId                                                           |
+| ------------- | ------------------------------------------------------------------ |
+| ClmmPackageId | 0x70285592c97965e811e0c6f98dccc3a9c2b4ad854b3594faab9597ada267b860 |
+| Acl           | 0xe7f25417d58cd086a64e3daed2ef04d065b606458becce33871f6d3e8b35db9d |
+| AdminCap      | 0x11d573677fee08613bc4e089252945753445ad710ac3e8e4b61d4f8281907118 |
+| GlobalConfig  | 0x9889f38f107f5807d34c547828f4a1b4d814450005a4517a58a1ad476458abfc |
+| Version       | 0x2375a0b1ec12010aaea3b2545acfa2ad34cfbba03ce4b59f4c39e1e25eed1b2a |
+| VersionCap    | 0xe1d4c6a999132eb7e4a388716c57a4bfde3c6614d9e51aa209358c4fb45fabb1 |
+| UpgradeCap    | 0x59d16188948e7b89791271c7af78cb877092b8858db44c9166b8af9dee55dcb4 |
+
+| Role              | ObjectId                                                           |
+| ----------------- | ------------------------------------------------------------------ |
+| SlippagePackageId | 0x8add2f0f8bc9748687639d7eb59b2172ba09a0172d9e63c029e23a7dbdb6abe6 |
+
+### Pools Data (Official)
+
+| Pool Name               | Pool ID                                                            | coinXType                                                                        | coinYType                                                                      |
+| ----------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| suiUSDT-suiUSDC         | 0xb0a595cb58d35e07b711ac145b4846c8ed39772c6d6f6716d89d71c64384543b | 0x375f70cf2ae4c00bf37117d0c85a2c71545e6ee05c4a5c7d282cd66a4504b068::usdt::USDT   | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| SUI-suiUSDC             | 0x455cf8d2ac91e7cb883f515874af750ed3cd18195c970b7a2d46235ac2b0c388 | 0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI     | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| DEEP-SUI                | 0x9b06ea8e1a0ee5c86f0b47512a3337e3c9c4e235c4ec698d15b51b0a8ec3e5a9 | 0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP   | 0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI   |
+| FDUSD-suiUSDC           | 0xb556fc22cef37bee2ab045bfbbd370f4080db5f6f2dd35a8eff3699ddf48e454 | 0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| USDY-suiUSDC            | 0x807a3906cdecc4ad011b47592682289d961415dfc1bfd4714c6572b1c8cccd9f | 0x960b531667636f39e85867775f52f6b1f220a058c4de786905bdf761e06a56bb::usdy::USDY   | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| AUSD-suiUSDC            | 0x900f25b27d2b1686886277d763223988d802f3b6152d02872c382d4dce05e25b | 0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD   | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| BUCK-suiUSDC            | 0x4f4cdb17d66527ddc43f696a5c7ee499374e38a6fbb58b236a7491cf63f4d133 | 0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK   | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| wUSDT-suiUSDC           | 0x8a86062a0193c48b9d7c42e5d522ed1b30ba1010c72e0cd0dad1525036775c8b | 0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN   | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| wUSDC-suiUSDC           | 0x8252de273b660b5865a1510c74fc5fccd8d318a9ef95f938ea6e78eb2ae907c8 | 0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN   | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| SUI-NS                  | 0x1595b46012324ae6050cd146fbe0c95420eb96f557eda462c93526c01e179735 | 0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI     | 0x5145494a5f5100e645e4b0aa950fa6b68f614e8c59e17bc5ded3495123a79178::ns::NS     |
+| SUI-BUCK                | 0x2cb995f6f22ae4989ddb7ef58f5f7851ab2497291dfab00d2fc429bfc41b346c | 0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI     | 0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK |
+| portalBTC-suibridgeBTC  | 0x55ba3a038a0c055aed669b20d29a1fb439a7128d8362523c36fc8e98462fd73e | 0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN   | 0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC   |
+| IBTC-suibridgeBTC       | 0x7aa448e4e16d5fde0e1f12ca26826b5bc72921bea5067f6f12fd7e298e2655f9 | 0x3e8e9423d80e1774a7ca128fccd8bf5f1f7753be658c5e645929037f7c819040::lbtc::LBTC   | 0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC   |
+| stBTC-suibridgeBTC      | 0xefa2287164d722f004a7c4f43b1de7c617ff0081e42b0d24dbe752fb91c6350e | 0x5f496ed5d9d045c5b788dc1bb85f54100f2ede11e46f6a232c29daada4c5bdb6::coin::COIN   | 0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC   |
+| suibridgeBTC-suiUSDC    | 0xac8a291d1a353b226e2a17f754c2e0a66b523bb16631c05b94f35ca965107747 | 0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC     | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |
+| portalWETH-suibridgeETH | 0x6f5b629cdd367a54c8ded8000b0ead590badd04667e306aa30e11a61a0fc810b | 0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN   | 0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH   |
+| suibridgeETH-suiUSDC    | 0x80cfedd19c4668ff761b5351e596d20434db14377342a542328c01b933ac0bf3 | 0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH     | 0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC |

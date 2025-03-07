@@ -1,0 +1,21 @@
+# Getting Started
+
+### Installation
+
+```
+npm install @mmt-finance/clmm-sdk
+```
+
+### SDK Initialization
+
+Our SDK has pre-configured network settings that allows you to connect to MMT CLMM on both mainnet and testnet. You can use `MmtSDK.NEW` method to swiftly initialize the configuration.
+
+```
+import { MmtSDK } from '@mmt-finance/clmm-sdk';
+
+const sdk = MmtSDK.NEW({
+  network: 'mainnet',
+});
+```
+
+Now, you can start using MMT SDK.
