@@ -30,7 +30,7 @@ await sdk.Pool.removeLiquidity(
 );
 
 // Claim rewards and fees
-if (rewarders) {
+if (position.rewarders && position.rewarders.length !== 0) {
   await sdk.Pool.collectAllRewards(tx, poolParams, rewarders, positionId, userAddress);
 }
 sdk.Pool.collectFee(tx, poolParams, positionId, userAddress);

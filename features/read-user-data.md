@@ -21,7 +21,21 @@ const positions = await sdk.Position.getAllUserPositions(userAddress);
 
 ```typescript
 const userAddress = '0x...';
-const rewardsAndFees = await sdk.Position.fetchRewards(userAddress);
+const pools: ExtendedPool[] = await sdk.Pool.getAllPools();
+  const objects = await fetchUserObjectsByPkg(
+    sdk.rpcClient,
+    sdk.contractConst.publishedAt,
+    userAddress,
+  );
+  const positions = objects.filter(
+    (obj: any) => obj.type === `${sdk.PackageId}::position::Position`,
+  );
+  const rewardsAndFees = await sdk.Position.fetchRewards(
+    positions,
+    pools,
+    userAddress,
+    sdk.rpcClient,
+  );
 ```
 
 ### Read user rewards for a position (incentives and fees)
