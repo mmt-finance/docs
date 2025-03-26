@@ -19,5 +19,5 @@ layout:
 
 # Overview
 
-Welcome to the MMT Finance Developer Documentation. Here, you'll find all the technical resources needed for CLMM on MMT Finance, built on Sui.
+Welcome to the Momentum Finance Developer Documentation. Here, you'll find all the technical resources needed for CLMM on MMT Finance, built on Sui.
 
