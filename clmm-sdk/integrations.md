@@ -1,6 +1,6 @@
 # Overview
 
-MMT Finance offers official SDK to allow developers to seamlessly integrate with MMT CLMM Dex.&#x20;
+MOMENTUM Finance offers official SDK to allow developers to seamlessly integrate with MOMENTUM CLMM Dex.&#x20;
 
 You shall find @mmt-finance/clmm-sdk in both npmjs and github.
 
