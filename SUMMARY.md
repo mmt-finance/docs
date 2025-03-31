@@ -10,8 +10,7 @@
 
 ***
 
-* [Admin and Operations](admin-and-operations/README.md)
-  * [Admin addresses](admin-and-operations/admin-addresses.md)
+* [Admin and Operations](admin-and-operations.md)
 
 ## CLMM SDK
 
