@@ -28,3 +28,7 @@
   * [Claim Fees and Rewards](features/claim-fees-and-rewards.md)
   * [Close Position](features/close-position.md)
 * [Examples](examples.md)
+
+## AUDIT
+
+* [Audit Report](audit/audit-report.md)
