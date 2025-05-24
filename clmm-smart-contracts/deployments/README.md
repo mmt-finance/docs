@@ -6,15 +6,16 @@ description: Here is the list of addresses on Sui Mainnet
 
 ### Contract Addresses
 
-| Role          | ObjectId                                                           |
-| ------------- | ------------------------------------------------------------------ |
-| ClmmPackageId | 0x70285592c97965e811e0c6f98dccc3a9c2b4ad854b3594faab9597ada267b860 |
-| Acl           | 0xe7f25417d58cd086a64e3daed2ef04d065b606458becce33871f6d3e8b35db9d |
-| AdminCap      | 0x11d573677fee08613bc4e089252945753445ad710ac3e8e4b61d4f8281907118 |
-| GlobalConfig  | 0x9889f38f107f5807d34c547828f4a1b4d814450005a4517a58a1ad476458abfc |
-| Version       | 0x2375a0b1ec12010aaea3b2545acfa2ad34cfbba03ce4b59f4c39e1e25eed1b2a |
-| VersionCap    | 0xe1d4c6a999132eb7e4a388716c57a4bfde3c6614d9e51aa209358c4fb45fabb1 |
-| UpgradeCap    | 0x59d16188948e7b89791271c7af78cb877092b8858db44c9166b8af9dee55dcb4 |
+| Role            | ObjectId                                                             |
+| --------------- | -------------------------------------------------------------------- |
+| ClmmPackageId   | 0x70285592c97965e811e0c6f98dccc3a9c2b4ad854b3594faab9597ada267b860   |
+| ClmmPublishedAt | 0x9c12f3aa14a449a0a23c066589e269086f021a98939f21158cfacb16d19787c3   |
+| Acl             | 0xe7f25417d58cd086a64e3daed2ef04d065b606458becce33871f6d3e8b35db9d   |
+| AdminCap        | 0x11d573677fee08613bc4e089252945753445ad710ac3e8e4b61d4f8281907118   |
+| GlobalConfig    | 0x9889f38f107f5807d34c547828f4a1b4d814450005a4517a58a1ad476458abfc   |
+| Version         | 0x2375a0b1ec12010aaea3b2545acfa2ad34cfbba03ce4b59f4c39e1e25eed1b2a   |
+| VersionCap      | 0xe1d4c6a999132eb7e4a388716c57a4bfde3c6614d9e51aa209358c4fb45fabb1   |
+| UpgradeCap      | 0x59d16188948e7b89791271c7af78cb877092b8858db44c9166b8af9dee55dcb4   |
 
 | Role              | ObjectId                                                           |
 | ----------------- | ------------------------------------------------------------------ |
