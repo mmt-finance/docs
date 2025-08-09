@@ -7,6 +7,7 @@
 * [Deployments](clmm-smart-contracts/deployments/README.md)
   * [Deployments (Testnet)](clmm-smart-contracts/deployments/deployments-testnet.md)
 * [Contract Interface](clmm-smart-contracts/contract-interface.md)
+* [Contract Event](clmm-smart-contracts/contract-event.md)
 
 ***
 
